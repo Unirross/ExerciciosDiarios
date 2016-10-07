@@ -21,10 +21,11 @@ public class Treino {
 		
 		System.out.println("O valor da posição 3 é: " + pontosFora[2]);
 		int soma =0;
-		for(int i = 0; i< pontosFora.length;i++)
-			soma= soma + pontosFora[i];
+		for(int i = 0; i< pontosFora.length;i++)//Percorre o vectore
+			soma= soma + pontosFora[i];//Faz a soma dos valores
 		
 		return soma;
 	}
+	
 
 }
